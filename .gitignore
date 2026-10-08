@@ -1,15 +1,58 @@
+# CMake
 CMakeLists.txt.user
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+CMakeFiles/
+CMakeScripts/
+Testing/
 Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
+_deps/
 CMakeUserPresets.json
+
+# CMake build directories
+cmake-build-*/
+build/
+Build/
+out/
+
+# C/C++
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Temp files
+*.d
+*.dep
+*.gch
+*.pch
+*.ilk
+*.pdb
+
+# Qt
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qtc.user
+
+# Autogen
+*_autogen/ 
 
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
