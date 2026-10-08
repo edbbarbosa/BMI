@@ -19,6 +19,8 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget *centralWidget = new QWidget(this);
     setCentralWidget(centralWidget);
 
+    this->setWindowTitle("BMI");
+
     QVBoxLayout *vboxLayout = new QVBoxLayout(centralWidget);
     QFormLayout *formLayout = new QFormLayout();
 
